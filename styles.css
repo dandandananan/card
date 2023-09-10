@@ -1,0 +1,42 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px #22577a;
+}
+
+.avatar:hover {
+  width: 400px;
+  border-radius: 10px;  
+}
+
+.card {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #38a3a5;
+    color: #03045e;
+    border: 3px solid #57cc99;
+    border-bottom: 10px solid #57cc99;
+    border-radius: 10px;
+}
+
+.card p a {
+    text-decoration: none;
+}
+
+.card p i {
+    margin: 0 3px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
